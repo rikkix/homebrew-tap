@@ -7,8 +7,10 @@ A collection of Homebrew formulae and casks for software developed and maintaine
 Add this tap to Homebrew:
 
 ```sh
-brew tap rikki/tap
+brew tap rikki/tap https://git.rikki.moe/rikki/homebrew-tap.git
 ```
+
+The URL is needed because the tap isn't hosted on GitHub.
 
 ## Installation
 
@@ -41,8 +43,13 @@ brew upgrade
 
 ## Available Packages
 
-- [Formulae](./Formula) — Command-line tools, libraries, and services.
-- [Casks](./Casks) — macOS applications.
+### Casks
+
+- [`marker`](./Casks/marker.rb) — [Marker](https://git.rikki.moe/rikki/Marker), a Markdown and Typst editor that exports LaTeX-quality PDFs (macOS 27, Apple silicon).
+
+```sh
+brew install --cask rikki/tap/marker
+```
 
 ## Removing the Tap
 
