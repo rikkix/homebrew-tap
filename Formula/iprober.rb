@@ -1,23 +1,23 @@
 class Iprober < Formula
   desc "Identify services on open TCP ports"
   homepage "https://git.rikki.moe/rikki/iprober"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     depends_on arch: :arm64
     url "https://git.rikki.moe/rikki/iprober/releases/download/v#{version}/iprober-#{version}-macos-arm64.tar.gz"
-    sha256 "f3f94d461e09b055bf91921fd2739aef2f42ac939894ca7b49d12ccd07f7ad13"
+    sha256 "ac1e3790d27177102503301a1ce496de66c28d0d70a0e5cb400b725eb45697ea"
   end
 
   on_linux do
     on_intel do
       url "https://git.rikki.moe/rikki/iprober/releases/download/v#{version}/iprober-#{version}-linux-amd64-musl.tar.gz"
-      sha256 "d4541b7a84bd5681f3be7807e90a2fe949db06c207121c25c54c04194a5cebd1"
+      sha256 "e29ac4ce7d993fcaa2dab1e3ca22bee16f93f22b07cb02a2220869333dd24834"
     end
 
     on_arm do
       url "https://git.rikki.moe/rikki/iprober/releases/download/v#{version}/iprober-#{version}-linux-arm64-musl.tar.gz"
-      sha256 "befac7bab2c610d921e8e2eb28d171c939b927e116c001492895bedfed4cc00c"
+      sha256 "2dac4255cafe03b85e8e864c9698fd592d46343bfa6640abe60dc947681dbe77"
     end
   end
 
