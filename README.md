@@ -43,6 +43,14 @@ brew upgrade
 
 ## Available Packages
 
+### Formulae
+
+- [`iprober`](./Formula/iprober.rb) — [iProber](https://git.rikki.moe/rikki/iprober), a TCP service inventory tool (Apple Silicon macOS, Linux AMD64 and ARM64).
+
+```sh
+brew install rikki/tap/iprober
+```
+
 ### Casks
 
 - [`marker`](./Casks/marker.rb) — [Marker](https://git.rikki.moe/rikki/Marker), a Markdown and Typst editor that exports LaTeX-quality PDFs (macOS 27, Apple silicon).
